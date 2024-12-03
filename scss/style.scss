@@ -1,0 +1,217 @@
+.item {
+    background-color: skyblue;
+    height: 110vh;
+}
+
+.box {
+    img {
+        position: absolute;
+        top: 1rem;
+        left: 2%;
+    }
+}
+
+.img-box {
+    .box {
+        z-index: 2;
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        background-color: orange;
+        border: 10px solid rgb(239, 186, 89);
+        top: 15rem;
+        left: 40%;
+        position: absolute;
+        cursor: pointer;
+    }
+}
+
+
+
+.souces {
+    position: relative;
+    top: -37rem;
+    left: 67%;
+    h4 {
+        position: absolute;
+        top: -40px;
+    }
+    img {
+        margin: 0 10px;
+        object-fit: cover;
+        cursor: pointer;
+    }
+}
+
+
+
+.mushroom {
+    position: relative;
+    top: -37rem;
+    left: 67%;
+    h4{
+        padding: 10px 0;
+    }
+    img {
+        margin: 0 10px;
+        cursor: pointer;
+    }
+}
+
+
+
+.tomates {
+    position: relative;
+    top: -36rem;
+    left: 67%;
+    h4{
+        padding: 10px 0;
+    }
+    img {
+        margin: 0 10px;
+        cursor: pointer;
+    }
+}
+
+.sosis {
+    position: relative;
+    top: -35rem;
+    left: 67%;
+    h4{
+        padding: 10px 0;
+    }
+    img {
+        margin: 0 10px;
+        cursor: pointer;
+    }
+}
+
+
+.olive {
+    position: relative;
+    top: -34rem;
+    left: 67%;
+    h4{
+        padding: 10px 0;
+    }
+    img {
+        margin: 0 10px;
+        cursor: pointer;
+    }
+}
+
+.cheese{
+    position: relative;
+    top: -33rem;
+    left: 67%;
+    h4{
+        padding: 10px 0;
+    }
+    img {
+        margin: 0 10px;
+        cursor: pointer;
+    }
+}
+
+.pepper{
+    position: relative;
+    top: -32rem;
+    left: 67%;
+    h4{
+        padding: 10px 0;
+    }
+    img {
+        margin: 0 10px;
+        cursor: pointer;
+    }
+}
+
+
+.flame {
+    h3 {
+        top: 29rem;
+        padding: 0 2rem;
+        cursor: pointer;
+        color: white;
+        background-color: black;
+        border: 2px solid black;
+        border-radius: 10px;
+        width: 100px;
+        height: 54px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        left: 34%;
+    }
+}
+
+
+.boxes {
+    h2 {
+        top: 29rem;
+        position: absolute;
+        cursor: pointer;
+        color: white;
+        background-color: black;
+        border: 2px solid black;
+        border-radius: 10px;
+        width: 100px;
+        height: 54px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        left: 44%;
+    }
+
+}
+
+.boxs {
+    img {
+        position: absolute;
+        top: 7rem;
+        left: 38%;
+        z-index: 1;
+        display: none;
+        &.active {
+            display: block;
+        }
+    }
+}
+
+.car-box {
+    h3 {
+        top: 29rem;
+        padding: 0 2rem;
+        cursor: pointer;
+        position: absolute;
+        left: 55%;
+        color: white;
+        background-color: black;
+        border: 2px solid black;
+        border-radius: 10px;
+        width: 130px;
+        height: 54px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
+
+
+.car {
+    position: relative;
+    top: -39rem;
+    left: -44%;
+    transition:5s;
+    &.active {
+        display: block;
+        left: 30%;
+    }
+}
+
+body{
+    overflow: hidden;
+}
+
